@@ -2,7 +2,7 @@
 
 ## 简介
 
-团队使用 MonoRopes 模版仓库。
+一个使用 `Rush.js` 进行编排的 `Monorepos` 仓库。
 
 使用作为模版后，需要修改 `rush.json` 中 `repository.url` 属性为实际仓库地址。(`SSH` 格式)
 
