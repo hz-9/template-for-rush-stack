@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------------------------------------------
-# 保持与 .gitignore 同步
+# Keep in sync with .gitignore
 #-------------------------------------------------------------------------------------------------------------------
 
 # Logs
@@ -68,57 +68,28 @@ common/temp/
 common/autoinstallers/*/.npmrc
 **/.rush/temp/
 
-libraries/*/sandbox/temp
-libraries/*/src/test/temp
-libraries/*/lib
-libraries/*/build
-libraries/*/temp
-libraries/*/public/*.json
-
-tools/*/sandbox/temp
-tools/*/src/test/temp
-tools/*/lib
-tools/*/build
-tools/*/temp
-
-types/*/sandbox/temp
-types/*/src/test/temp
-types/*/lib
-types/*/build
-types/*/temp
+# Docs
+/docs
 
 # Heft
 .heft
 
-
 #-------------------------------------------------------------------------------------------------------------------
-# Prettier 通用配置
+# Prettier general configuration
 #-------------------------------------------------------------------------------------------------------------------
 
-# Rush 文件
+# Rush files
 common/changes/
 common/scripts/
 common/config/
 CHANGELOG.*
 
-# docs
+# Docs
 markdowns
+*.md
 
-libraries/map-3d-board/index.html
-
-tools/outline-mapshaper/static
-
-**/temp/_eslint-*.json
-
-# 包管理文件
+# Package manager lock files
 pnpm-lock.yaml
 yarn.lock
 package-lock.json
 shrinkwrap.json
-
-# 构建产物
-dist
-lib
-
-# 在 Markdown 中，Prettier 将会对代码块进行格式化，这会影响输出
-*.md

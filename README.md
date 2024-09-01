@@ -1,17 +1,35 @@
-# Monorepos Rush Template
+# Template for Rush Stack
 
-## 简介
+## Introduction
 
-一个使用 `Rush.js` 进行编排的 `Monorepos` 仓库。
+A `Monorepos` repository orchestrated using [`Rush Stack`].
 
-使用作为模版后，需要修改 `rush.json` 中 `repository.url` 属性为实际仓库地址。(`SSH` 格式)
+After creating the repository from this template, please modify the `repository.url` property in `rush.json` to the actual repository address. (`SSH` format)
 
-## 使用
+[`Rush Stack`](https://rushstack.io/)
 
-应在全局搜索 NOT_SET，并修改对应信息。且替换本 `README.md` 文件。
+## Detailed Instructions
 
-## 操作说明详解
+- Install dependencies
 
-`Node.js` 基础版本为 `v18`。
+``` sh
+rush update
 
-<!-- TODO 补充操作说明 -->
+# Clear cache and reinstall
+rush update -p
+
+# Install dependencies for rush-commitlint
+rush update-autoinstaller --name rush-commitlint
+```
+
+- Format the current code
+
+``` sh
+rush prettier
+```
+
+- Publish the repository
+
+``` sh
+rush publish --apply --publish --add-commit-details --ignore-git-hooks --target-branch master
+```

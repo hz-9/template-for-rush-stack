@@ -205,15 +205,6 @@
       "enableParallelism": true,
       "safeForSimultaneousRushProcesses": true,
       "ignoreMissingScript": true
-    },
-
-    {
-      "commandKind": "bulk",
-      "name": "prepare",
-      "summary": "For start prepare.",
-      "enableParallelism": true,
-      "safeForSimultaneousRushProcesses": true,
-      "ignoreMissingScript": true
     }
   ],
 
