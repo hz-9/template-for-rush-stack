@@ -6,7 +6,7 @@ A `Monorepos` repository orchestrated using [`Rush Stack`].
 
 After creating the repository from this template, please modify the `repository.url` property in `rush.json` to the actual repository address. (`SSH` format)
 
-[`Rush Stack`](https://rushstack.io/)
+[`Rush Stack`]:https://rushstack.io/
 
 ## Detailed Instructions
 

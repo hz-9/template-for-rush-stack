@@ -6,7 +6,7 @@
 
 作为模版创建当前仓库后，请修改修改 `rush.json` 中 `repository.url` 属性为实际仓库地址。(`SSH` 格式)
 
-[`Rush Stack`](https://rushstack.io/)
+[`Rush Stack`]:https://rushstack.io/
 
 ## 操作说明详解
 
