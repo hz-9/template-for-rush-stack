@@ -215,6 +215,7 @@
      * your PR branch, and in this situation "rush change" will also automatically invoke "git fetch"
      * to retrieve the latest activity for the remote main branch.
      */
+    // "url": "git@github.com:hz-9/template-for-rush-stack.git",
     "url": "NOT_SET",
 
     /**
